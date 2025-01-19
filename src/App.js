@@ -16,7 +16,7 @@ import CodingProfiles from "./components/CodingProfile/index.js";
 import styled from "styled-components";
 
 const Body = styled.div`
-  background-color: ${({ theme }) => theme.green};
+  background-color: ${({ theme }) => theme.bg};
   width: 100%;
   overflow-x: hidden;
 `;
@@ -56,15 +56,15 @@ const ThemeToggleButton = styled.button`
 `;
 
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [lightMode, setLightMode] = useState(true);
 
   // Toggle theme between dark and light
   const toggleTheme = () => {
-    setDarkMode((prevMode) => !prevMode);
+    setLightMode((prevMode) => !prevMode);
   };
 
   return (
-    <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
+    <ThemeProvider theme={lightMode ? lightTheme : darkTheme}>
       <Router>
         <Navbar />
         <Body>
@@ -84,7 +84,7 @@ function App() {
 
         
         <ThemeToggleButton onClick={toggleTheme}>
-          {darkMode ? "🌙" : "☀️"}
+          {darkMode ? "☀️" : "🌙"}
         </ThemeToggleButton>
       </Router>
     </ThemeProvider>
