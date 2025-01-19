@@ -9,7 +9,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 const HeroContainer = styled.div`
-  background: ${({ theme }) => theme.green};
+  background: ${({ theme }) => theme.bg};
   display: flex;
   justify-content: center;
   position: relative;
