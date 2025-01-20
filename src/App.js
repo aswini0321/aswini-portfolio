@@ -84,11 +84,7 @@ function App() {
 
         
         <ThemeToggleButton onClick={toggleTheme}>
-<<<<<<< HEAD
           {lightMode ? "🌙" : "☀️"}
-=======
-          {darkMode ? "☀️" : "🌙"}
->>>>>>> baf1b0a3aa928520f34a4591783e63ec9d44e712
         </ThemeToggleButton>
       </Router>
     </ThemeProvider>
