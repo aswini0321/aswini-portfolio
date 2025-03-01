@@ -19,7 +19,7 @@ export const Bio = {
       "I am a motivated and versatile individual, always eager to take on new challenges.",
     github: "https://github.com/aswini0321",
     resume:
-      "https://drive.google.com/file/d/1egI7Wgg-9coNUMOLh2k_74pRkcmi_X9E/view?usp=sharing",
+      "https://drive.google.com/file/d/1GowOwtNj5sEd4FKKeYz5rqy2XUlWNCao/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/aswini0321",
     twitter: "https://x.com/aswini0321",
     insta: "https://www.instagram.com/aswini0321/",
